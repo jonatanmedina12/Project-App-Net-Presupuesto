@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\TiposCuentas\\Crear.cshtml",
               "ToolTip": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\TiposCuentas\\Crear.cshtml",
               "RelativeToolTip": "ManejoPresupuesto\\Views\\TiposCuentas\\Crear.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-01T01:47:52.693Z",
               "EditorCaption": ""
@@ -45,7 +45,7 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
               "ToolTip": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Models\\TipoCuenta.cs",
               "RelativeToolTip": "ManejoPresupuesto\\Models\\TipoCuenta.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-01T01:45:43.765Z",
               "EditorCaption": ""
@@ -60,8 +60,7 @@
               "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-01T01:44:21.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-01T01:44:21.592Z"
             }
           ]
         }
