@@ -27,6 +27,7 @@
         {
             <tr>
                 <td>
+                    <input type="hidden"  value="@tipocuenta.Id" class="ids" />
                     <a class="btn btn-primary">
                         Editar
                     </a>
@@ -43,3 +44,33 @@
     </tbody>
 
 </table>
+@section Script{
+    <script>
+        $(funtion(){
+            $("#reordenable").sortable();
+            stop: async funtion(e, ui){
+            await actualizarOrdenes();
+                await enviarIdsAlBackend(Ids);
+
+            }
+           async funtion actualizarOrdenes(){
+                const ids = $(".ids").map(funtion(){
+                    return $(this).val();
+                }).get();
+               await enviarIdsAlBackend(ids);
+            }
+             async function enviarIdsAlBackend(ids){
+                var data = JSON.stringify(ids);
+                 await fetch(urlOrdenar, {
+                     method:'Post',
+                     body: data,
+                     headers:{
+                         'Content-Type':'application/json'
+                     }
+                 })
+            }
+        })
+        const urlOrdenar = '@Url.Action("ordenar")';
+
+    </script>
+}
