@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\tiposcuentas\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|d:\\repositorios\\project-app-net-presupuesto\\manejopresupuesto\\manejopresupuesto\\views\\tiposcuentas\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\tiposcuentas\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|d:\\repositorios\\project-app-net-presupuesto\\manejopresupuesto\\manejopresupuesto\\controllers\\tiposcuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\controllers\\tiposcuentascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|d:\\repositorios\\project-app-net-presupuesto\\manejopresupuesto\\manejopresupuesto\\views\\tiposcuentas\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|solutionrelative:manejopresupuesto\\views\\tiposcuentas\\borrar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2FAE57A7-160D-4BC2-BAF3-50265AFBE1E7}|ManejoPresupuesto\\ManejoPresupuesto.csproj|d:\\repositorios\\project-app-net-presupuesto\\manejopresupuesto\\manejopresupuesto\\servicios\\repositoriotiposcuentas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -44,14 +44,14 @@
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\TiposCuentas\\Index.cshtml",
               "ToolTip": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\TiposCuentas\\Index.cshtml",
               "RelativeToolTip": "ManejoPresupuesto\\Views\\TiposCuentas\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABbAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAwEcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-29T03:26:35.029Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Borrar.cshtml",
               "DocumentMoniker": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Views\\TiposCuentas\\Borrar.cshtml",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Views\\TiposCuentas\\Borrar.cshtml",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ManejoPresupuesto\\Views\\TiposCuentas\\Borrar.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-29T03:23:49.29Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T03:23:49.29Z"
             },
             {
               "$type": "Document",
@@ -72,18 +71,17 @@
               "RelativeToolTip": "ManejoPresupuesto\\Servicios\\RepositorioTiposCuentas.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-29T03:18:30.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-29T03:18:30.217Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "TiposCuentasController.cs",
               "DocumentMoniker": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "RelativeDocumentMoniker": "ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "ToolTip": "D:\\Repositorios\\Project-App-Net-Presupuesto\\ManejoPresupuesto\\ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
               "RelativeToolTip": "ManejoPresupuesto\\Controllers\\TiposCuentasController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAowDkAAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAcwF8AAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T01:58:57.254Z",
               "EditorCaption": ""
