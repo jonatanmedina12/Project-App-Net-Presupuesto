@@ -10,6 +10,7 @@ namespace ManejoPresupuesto.Servicios
         Task<bool> Existe (string nombre, int usuarioId);
         Task<IEnumerable<TipoCuenta>> Obtener(string nombre, int usuarioId);
         Task Borrar(int id);
+        Task Ordenar(IEnumerable<TipoCuenta> tipoCuentasOrdenes);
     }
     public class RepositorioTiposCuentas: IRepositorioTiposCuentas
     {
@@ -42,6 +43,13 @@ namespace ManejoPresupuesto.Servicios
         {
             using var connection = new SqlConnection(connectionString);
             await connection.ExecuteAsync("DELETE TiposCuentas Where Id = @Id",new {id});
+        }
+        public async Task Ordenar(IEnumerable<TipoCuenta> tipoCuentasOrdenes)
+        {
+            var query = "Update TiposCuentas set Orden = @Orden where Id=@Id";
+            using var connection = new SqlConnection(connectionString);
+            await connection.ExecuteAsync(query, tipoCuentasOrdenes);
+
         }
     }
 }
