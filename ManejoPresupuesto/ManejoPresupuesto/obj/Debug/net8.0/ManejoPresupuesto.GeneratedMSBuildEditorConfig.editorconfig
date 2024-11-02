@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Repositorios\Project-App-Net-Presupuesto\ManejoPresupuesto\ManejoPresupuesto
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Repositorios/Project-App-Net-Presupuesto/ManejoPresupuesto/ManejoPresupuesto/Views/Cuenta/Crear.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXENyZWFyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Repositorios/Project-App-Net-Presupuesto/ManejoPresupuesto/ManejoPresupuesto/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
