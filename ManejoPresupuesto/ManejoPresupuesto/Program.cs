@@ -8,6 +8,7 @@ builder.Services.AddTransient<IRepositorioTiposCuentas,RepositorioTiposCuentas>(
 builder.Services.AddTransient<IservicioUsuarios,ServicioUsuarios>();
 var app = builder.Build();
 
+builder.Services.AddTransient<IrepositorioCuentas, repositorioCuentas>();
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
 {
