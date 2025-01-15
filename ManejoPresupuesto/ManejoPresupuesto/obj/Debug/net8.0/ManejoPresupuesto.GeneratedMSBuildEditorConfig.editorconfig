@@ -17,6 +17,8 @@ build_property.SupportLocalizedComponentNames =
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
 build_property.MSBuildProjectDirectory = D:\Repositorios\Project-App-Net-Presupuesto\ManejoPresupuesto\ManejoPresupuesto
 build_property._RazorSourceGeneratorDebug = 
+build_property.EffectiveAnalysisLevelStyle = 8.0
+build_property.EnableCodeStyleSeverity = 
 
 [D:/Repositorios/Project-App-Net-Presupuesto/ManejoPresupuesto/ManejoPresupuesto/Views/Cuenta/Crear.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3VlbnRhXENyZWFyLmNzaHRtbA==
