@@ -7,6 +7,7 @@ namespace ManejoPresupuesto.Servicios
     public interface IrepositorioCuentas
     {
         Task crear(Cuenta cuenta);
+        Task Crear(Cuenta cuenta);
     }
     public class repositorioCuentas : IrepositorioCuentas
     {

@@ -6,6 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddTransient<IRepositorioTiposCuentas,RepositorioTiposCuentas>();
 builder.Services.AddTransient<IservicioUsuarios,ServicioUsuarios>();
+builder.Services.AddTransient<IRepositorioCuentas, RepositorioCuenta>();
 var app = builder.Build();
 
 builder.Services.AddTransient<IrepositorioCuentas, repositorioCuentas>();
