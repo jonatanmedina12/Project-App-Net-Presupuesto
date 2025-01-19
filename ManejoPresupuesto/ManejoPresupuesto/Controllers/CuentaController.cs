@@ -12,11 +12,13 @@ namespace ManejoPresupuesto.Controllers
         private readonly IRepositorioTiposCuentas repositorioTiposCuentas;
         private readonly IservicioUsuarios iservicioUsuarios;
         private readonly IrepositorioCuentas irepositorioCuentas;
+        private readonly IrepositorioCuentas repositorioCuentas;
 
-        public CuentaController(IRepositorioTiposCuentas repositorioTiposCuentas, IservicioUsuarios iservicioUsuarios, IrepositorioCuentas irepositorioCuentas) {
+        public CuentaController(IRepositorioTiposCuentas repositorioTiposCuentas, IservicioUsuarios iservicioUsuarios, IrepositorioCuentas irepositorioCuentas,IrepositorioCuentas repositorioCuentas) {
             this.repositorioTiposCuentas = repositorioTiposCuentas;
             this.iservicioUsuarios = iservicioUsuarios;
             this.irepositorioCuentas = irepositorioCuentas;
+            this.repositorioCuentas = repositorioCuentas;
         }
         [HttpGet]
         public async Task<IActionResult> Crear()
@@ -51,5 +53,27 @@ namespace ManejoPresupuesto.Controllers
 
             return tiposCuentas.Select(x => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem(x.Nombre, x.Id.ToString())); ;
         }
+
+        [HttpPost]
+        public async Task<IActionResult> crear(CuentaCreacionViewModel cuenta)
+        {
+            var usuarioId = iservicioUsuarios.ObtenerUsuariosId();
+            var tipocuenta = await repositorioTiposCuentas.Obtener(cuenta.TipoCUentaId, usuarioId);
+
+            if (tipocuenta is null)
+            {
+                return RedirectToAction("NoEncontrado", "Home");
+            }
+            if (!ModelState.IsValid)
+            {
+
+            }
+        
+               
+
+
+        }
+
+
     }
 }
