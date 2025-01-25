@@ -75,5 +75,17 @@ namespace ManejoPresupuesto.Controllers
         }
 
 
+
+
+        
+        public async Task<IEnumerable<SelectListItem>>ObtenerTiposCuentas2(int usuarioId)
+        {
+
+            var tiposCuentas = await repositorioTiposCuentas.Obtener("", usuarioId);
+
+            return tiposCuentas.Select(x => new Microsoft.AspNetCore.Mvc.Rendering.SelectListItem(x.Nombre, x.Id.ToString())); ;
+        }
+
+
     }
 }
